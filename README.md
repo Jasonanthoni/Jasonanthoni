@@ -64,7 +64,7 @@ Extended a five-stage pipelined MIPS32 processor with a custom CRC-8 instruction
 
 Comparative design and simulation of conventional 6T and DICE SRAM cells for Single-Event Upset mitigation in 180 nm CMOS.
 
-`Cadence Virtuoso` `CMOS` `SRAM`
+`Cadence Virtuoso` `CMOS` `SRAM` `SEU`
 
 </td>
 </tr>

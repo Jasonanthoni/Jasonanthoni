@@ -1,159 +1,99 @@
-# Hi, I'm Jason Anthoni 👋
+<div align="center">
 
-### Electronics and Communication Engineering | RTL Design | VLSI | Computer Architecture
+<img src="assets/hardware-banner.svg" alt="Jason Anthoni — RTL Design, Digital Hardware, VLSI" width="100%">
 
-I'm an Electronics and Communication Engineering student at **KLE Technological University, Hubballi**, passionate about designing digital systems — from RTL and processor microarchitecture to transistor-level circuits and FPGA implementation.
+**Electronics & Communication Engineering · KLE Technological University**
 
-My work spans **digital hardware design, processor architecture, SRAM reliability, and computer architecture research**. I enjoy understanding how hardware works at every level, from logic gates and sequential circuits to pipelined processors and multicore systems.
+[LinkedIn](https://www.linkedin.com/in/jasonanthoni26) · [Email](mailto:jasonanthoni26@gmail.com) · [Repositories](https://github.com/Jasonanthoni?tab=repositories)
 
-- 🔭 Working on digital design, processor architecture, and VLSI projects
-- 🌱 Exploring RTL design, CMOS circuit design, hardware reliability, and computer architecture
-- 💡 Interested in custom instructions, hardware acceleration, and reliable digital systems
-- 🎯 Career interests: RTL Design, Digital Design, ASIC Design, and Silicon Engineering
-- ⚡ Fun fact: I enjoy tracing a processor's operation all the way from an instruction to the underlying hardware.
+</div>
 
 ---
 
-## 🛠️ Technical Skills
+### Engineering focus
 
-**Digital Design & RTL**
-- Verilog HDL
-- Combinational and sequential logic
-- Pipelined processor design
-- RTL simulation and waveform debugging
-- Digital system design and verification fundamentals
+<div align="center">
 
-**Processor & Computer Architecture**
-- MIPS32 instruction set architecture
-- Five-stage pipelining and custom instruction extensions
-- FPGA-based processor implementation
-- Cache coherence and hardware prefetching
-- Multicore architecture performance and power analysis
+`ARCHITECTURE` &nbsp;→&nbsp; `RTL` &nbsp;→&nbsp; `VERIFICATION` &nbsp;→&nbsp; `IMPLEMENTATION`
 
-**VLSI & Circuit Design**
-- CMOS circuit design
-- 6T SRAM and DICE SRAM
-- Single-Event Upset (SEU) mitigation
-- SRAM read, write, and hold operations
-- Circuit simulation and layout fundamentals
+</div>
 
-**FPGA & Embedded Systems**
-- Xilinx Spartan-6
-- FPGA implementation and hardware interfacing
-- Switches, push buttons, and LCD interfacing
+Digital hardware, processor microarchitecture, and silicon-level circuits — connected through hands-on projects and research.
 
-**Tools & Programming**
-- Cadence Virtuoso
-- gem5
-- McPAT
-- Xilinx ISE
-- Linux / Ubuntu
-- Git and GitHub
-- Python, C, and C++
+### Selected work
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 🚀 Featured Projects
+**01 · Processor design**
 
-### 1. CRC-8 Custom Instruction on a Pipelined MIPS32 Processor
+### [MIPS32 + CRC-8](https://github.com/Jasonanthoni/CRC8-with-MIPS32-on-Spartan6)
 
-**Verilog | MIPS32 | FPGA | Xilinx Spartan-6**
+Custom CRC-8 instruction integrated into a five-stage pipelined MIPS32 processor and implemented on a Spartan-6 FPGA.
 
-Extended a five-stage pipelined MIPS32 processor with a custom instruction for hardware-accelerated CRC-8 computation.
+`Verilog` `MIPS32` `FPGA`
 
-- Integrated a custom CRC-8 instruction into the processor's instruction set.
-- Implemented CRC computation using polynomial `0x07`.
-- Deployed the processor on a Xilinx Spartan-6 FPGA.
-- Used switches and push buttons for 32-bit input and a 16×2 LCD to display the result.
+</td>
+<td width="50%" valign="top">
 
-🔗 **Repository:** [CRC8-with-MIPS32-on-Spartan6](https://github.com/Jasonanthoni/CRC8-with-MIPS32-on-Spartan6)
+**02 · Circuit reliability**
 
-### 2. Radiation-Hardened SRAM Design for SEU Mitigation
+### [Radiation-Hardened SRAM](https://github.com/Jasonanthoni/Radiation-hardened-SRAM-design-to-mitigate-Single-Event-Upsets-SEUs-)
 
-**Cadence Virtuoso | 180 nm CMOS | SRAM | Circuit Simulation**
+Comparative study of conventional 6T and DICE SRAM architectures for Single-Event Upset mitigation in 180 nm CMOS.
 
-Designing and comparing conventional 6T SRAM and radiation-hardened DICE SRAM cells to study their resilience against Single-Event Upsets.
+`Cadence Virtuoso` `CMOS` `SRAM`
 
-- Implemented SRAM cell functionality and investigated read, write, and hold operations.
-- Studied the effects of injected current disturbances on stored data.
-- Explored DICE-based hardening and comparative SEU tolerance.
-- Focused on reliable memory design at the transistor and circuit levels.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-🔗 **Repository:** [Radiation-hardened-SRAM-design-to-mitigate-SEUs](https://github.com/Jasonanthoni/Radiation-hardened-SRAM-design-to-mitigate-Single-Event-Upsets-SEUs-)
+**03 · Architecture research**
 
-### 3. Power Analysis of Multicore Architectures
+### [Multicore Power Analysis](https://github.com/Jasonanthoni/Power-analysis-of-Multicore-architectures)
 
-**gem5 | McPAT | Python | Computer Architecture**
+gem5/McPAT workflow studying adaptive prefetching, MESI-IN cache coherence, PARSEC workloads, and multicore power.
 
-Research project investigating the power implications of adaptive prefetching and cache coherence in multicore architectures.
+`gem5` `McPAT` `Python`
 
-- Developed a 16-core x86 simulation baseline using gem5.
-- Investigated adaptive prefetching and MESI-IN cache coherence configurations.
-- Worked with PARSEC benchmarks and architectural statistics.
-- Automated simulation-result processing and power estimation using a gem5-to-McPAT workflow.
+</td>
+<td width="50%" valign="top">
 
-🔗 **Repository:** [Power-analysis-of-Multicore-architectures](https://github.com/Jasonanthoni/Power-analysis-of-Multicore-architectures)
+**04 · In development**
 
----
+### [Network-on-Chip Router](https://github.com/Jasonanthoni/NoC)
 
-## 📚 Areas of Interest
+RTL development focused on XY routing, buffering, backpressure, packet flow control, and verification.
 
-- RTL Design and Digital ASIC Design
-- Processor Microarchitecture and Pipelining
-- Functional Verification and Design Debugging
-- FPGA-Based System Design
-- CMOS VLSI and SRAM Circuit Design
-- Hardware Reliability and Fault Tolerance
-- Computer Architecture and Power Optimization
-- Custom Instructions and Hardware Acceleration
+`Verilog` `NoC` `Verification`
+
+</td>
+</tr>
+</table>
+
+### Inside the lab
+
+- **RTL & digital design:** Verilog, datapaths, pipelining, custom instructions
+- **VLSI:** CMOS circuits, SRAM architectures, SEU resilience
+- **Architecture:** NoC, cache coherence, prefetching, power analysis
+- **Tools:** Cadence Virtuoso · gem5 · McPAT · Xilinx ISE · Linux · Python · C/C++
+
+### GitHub activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jasonanthoni&show_icons=true&hide_border=true&bg_color=0B1220&title_color=67E8F9&icon_color=22D3EE&text_color=CBD5E1&ring_color=22D3EE" alt="GitHub statistics">
+
+<img height="165" src="https://streak-stats.demolab.com?user=Jasonanthoni&hide_border=true&background=0B1220&ring=22D3EE&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=CBD5E1&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" alt="GitHub contribution streak">
+
+</div>
 
 ---
 
-## 📊 GitHub Statistics
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jasonanthoni&show_icons=true&theme=tokyonight&hide_border=true" alt="Jason's GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jasonanthoni&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used programming languages" />
-</p>
+*Building digital systems from architecture to implementation.*
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Jasonanthoni&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-</p>
-
-*Statistics and language cards are generated by external services. Their figures may be cached and may not include every repository.*
-
----
-
-## 📂 More Projects
-
-My repositories cover digital design, processor implementation, VLSI circuits, and computer architecture research.
-
-<!-- REPOSITORIES:START -->
-<!-- This section can be updated automatically using GitHub Actions. -->
-<!-- REPOSITORIES:END -->
-
-🔎 [Explore all my public repositories](https://github.com/Jasonanthoni?tab=repositories)
-
----
-
-## 🎯 Current Focus
-
-- Strengthening RTL design and digital logic fundamentals.
-- Deepening my understanding of processor microarchitecture.
-- Exploring SRAM reliability and transistor-level VLSI design.
-- Analyzing architectural trade-offs in multicore systems.
-- Building practical hardware projects that connect theory with implementation.
-
----
-
-## 🤝 Let's Connect
-
-- 💼 **LinkedIn:** [jasonanthoni26](https://www.linkedin.com/in/jasonanthoni26)
-- 📧 **Email:** [jasonanthoni26@gmail.com](mailto:jasonanthoni26@gmail.com)
-- 🐙 **GitHub:** [@Jasonanthoni](https://github.com/Jasonanthoni)
-
----
-
-<p align="center">
-  <i>Learning, designing, simulating, and building hardware — one layer at a time.</i>
-</p>
+</div>

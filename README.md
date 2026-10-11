@@ -1,47 +1,50 @@
+
 <div align="center">
 
-<img src="assets/hardware-banner.svg" alt="Jason Anthoni — RTL Design, Digital Hardware, VLSI" width="100%">
+# JASON ANTHONI
 
-**Electronics & Communication Engineering · KLE Technological University**
+### RTL DESIGN · DIGITAL HARDWARE · VLSI
 
-[LinkedIn](https://www.linkedin.com/in/jasonanthoni26) · [Email](mailto:jasonanthoni26@gmail.com) · [Repositories](https://github.com/Jasonanthoni?tab=repositories)
+Electronics & Communication Engineering · KLE Technological University
+
+[LinkedIn](https://www.linkedin.com/in/jasonanthoni26) ·
+[Email](mailto:jasonanthoni26@gmail.com) ·
+[Repositories](https://github.com/Jasonanthoni?tab=repositories)
 
 </div>
 
 ---
 
-### Engineering focus
-
 <div align="center">
 
-`ARCHITECTURE` &nbsp;→&nbsp; `RTL` &nbsp;→&nbsp; `VERIFICATION` &nbsp;→&nbsp; `IMPLEMENTATION`
+`ARCHITECTURE` → `RTL` → `VERIFICATION` → `IMPLEMENTATION`
 
 </div>
 
-Digital hardware, processor microarchitecture, and silicon-level circuits — connected through hands-on projects and research.
+I build digital systems spanning processor design, FPGA implementation, VLSI circuits, and computer architecture research.
 
-### Selected work
+## ⚡ Selected Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 · Processor design**
+### 01 / Processor Design
 
-### [MIPS32 + CRC-8](https://github.com/Jasonanthoni/CRC8-with-MIPS32-on-Spartan6)
+**[MIPS32 + CRC-8](https://github.com/Jasonanthoni/CRC8-with-MIPS32-on-Spartan6)**
 
-Custom CRC-8 instruction integrated into a five-stage pipelined MIPS32 processor and implemented on a Spartan-6 FPGA.
+Custom CRC-8 instruction integrated into a five-stage pipelined MIPS32 processor and implemented on Spartan-6 FPGA.
 
 `Verilog` `MIPS32` `FPGA`
 
 </td>
 <td width="50%" valign="top">
 
-**02 · Circuit reliability**
+### 02 / Circuit Reliability
 
-### [Radiation-Hardened SRAM](https://github.com/Jasonanthoni/Radiation-hardened-SRAM-design-to-mitigate-Single-Event-Upsets-SEUs-)
+**[Radiation-Hardened SRAM](https://github.com/Jasonanthoni/Radiation-hardened-SRAM-design-to-mitigate-Single-Event-Upsets-SEUs-)**
 
-Comparative study of conventional 6T and DICE SRAM architectures for Single-Event Upset mitigation in 180 nm CMOS.
+Comparing conventional 6T and DICE SRAM architectures for SEU mitigation using 180 nm CMOS.
 
 `Cadence Virtuoso` `CMOS` `SRAM`
 
@@ -50,20 +53,20 @@ Comparative study of conventional 6T and DICE SRAM architectures for Single-Even
 <tr>
 <td width="50%" valign="top">
 
-**03 · Architecture research**
+### 03 / Architecture Research
 
-### [Multicore Power Analysis](https://github.com/Jasonanthoni/Power-analysis-of-Multicore-architectures)
+**[Multicore Power Analysis](https://github.com/Jasonanthoni/Power-analysis-of-Multicore-architectures)**
 
-gem5/McPAT workflow studying adaptive prefetching, MESI-IN cache coherence, PARSEC workloads, and multicore power.
+Investigating adaptive prefetching, MESI-IN cache coherence, and multicore power using gem5 and McPAT.
 
 `gem5` `McPAT` `Python`
 
 </td>
 <td width="50%" valign="top">
 
-**04 · In development**
+### 04 / In Development
 
-### [Network-on-Chip Router](https://github.com/Jasonanthoni/NoC)
+**[Network-on-Chip Router](https://github.com/Jasonanthoni/NoC)**
 
 RTL development focused on XY routing, buffering, backpressure, packet flow control, and verification.
 
@@ -73,14 +76,14 @@ RTL development focused on XY routing, buffering, backpressure, packet flow cont
 </tr>
 </table>
 
-### Inside the lab
+## 🧪 Inside the Lab
 
-- **RTL & digital design:** Verilog, datapaths, pipelining, custom instructions
+- **Digital design:** Verilog, pipelining, datapaths, custom instructions
 - **VLSI:** CMOS circuits, SRAM architectures, SEU resilience
 - **Architecture:** NoC, cache coherence, prefetching, power analysis
 - **Tools:** Cadence Virtuoso · gem5 · McPAT · Xilinx ISE · Linux · Python · C/C++
 
-### GitHub activity
+## 📊 GitHub Activity
 
 <div align="center">
 
